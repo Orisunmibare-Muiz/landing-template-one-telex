@@ -10,7 +10,7 @@ export default function NavBar() {
       <nav className="w-full py-3.5 bg-white outline-1">
         <div className="flex flex-row justify-between bg-white px-4 lg:w-5/6 md:w-5/6 sm:w-5/6 mx-auto items-center ">
           {/* Logo */}
-          <NavLink to="/">  h
+          <NavLink to="/"> 
             <img src={logo} alt="" />
           </NavLink>
 
@@ -34,7 +34,7 @@ export default function NavBar() {
           <div className="block sm:hidden ">
             <img src={menu} alt="Menu" />
 
-          {/* Mobile Menu 🔗 Links */}
+          feat: add first landing page section
             <ul className="flex flex-col absolute right-0 top-15 items-center gap-y-2  w-full outline-1 py-2 sm:hidden bg-[#2A2B67] text-white navFont font-bold text-12 bg-conic-180 from-violet-600 via-[#2A2B67] to-violet-600 ">
               <li>
                 <NavLink to="/">Home</NavLink>
