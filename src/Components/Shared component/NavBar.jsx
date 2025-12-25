@@ -7,7 +7,7 @@ import menu from "/Images/mobile-menu.svg";
 export default function NavBar() {
   return (
     <>
-      <nav className="w-full py-3.5 bg-white outline-1">
+      <nav className="w-full py-3.5 bg-white">
         <div className="flex flex-row justify-between bg-white px-4 lg:w-5/6 md:w-5/6 sm:w-5/6 mx-auto items-center ">
           {/* Logo */}
           <NavLink to="/"> 
