@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
     font-family: Plus Jakarta Sans;
-    src: url(../public/Fonts/plus-jakarta-sans/PlusJakartaSans[wght].ttf);
+    src: url(/Fonts/plus-jakarta-sans/PlusJakartaSans[wght].ttf);
 }
 
 .navFont {
