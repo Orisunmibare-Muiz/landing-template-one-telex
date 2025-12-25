@@ -34,7 +34,7 @@ export default function NavBar() {
           <div className="block sm:hidden ">
             <img src={menu} alt="Menu" />
 
-          feat: add first landing page section
+          {/* Mobile Menu 🔗 Links */}
             <ul className="flex flex-col absolute right-0 top-15 items-center gap-y-2  w-full outline-1 py-2 sm:hidden bg-[#2A2B67] text-white navFont font-bold text-12 bg-conic-180 from-violet-600 via-[#2A2B67] to-violet-600 ">
               <li>
                 <NavLink to="/">Home</NavLink>
