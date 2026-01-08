@@ -15,7 +15,7 @@ export default function NavBar() {
           </NavLink>
 
           {/* Navigation 🔗 Links */}
-          <ul className="hidden flex-row justify-between navFont font-medium text-[12px] gap-x-3 sm:flex md:relative  sm:gap-x-2 sm:text-[12px] md:gap-x-5 md:text-[16px]  lg:gap-x-10  ">
+          <ul className="hidden flex-row justify-between navFont font-medium text-[12px] gap-x-3 sm:flex md:relative  sm:gap-x-2 sm:text-[12px] md:gap-x-5 md:text-[14px] lg:text-[16px]  lg:gap-x-10  ">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
@@ -35,7 +35,7 @@ export default function NavBar() {
             <img src={menu} alt="Menu" />
 
           {/* Mobile Menu 🔗 Links */}
-            <ul className="flex flex-col absolute right-0 top-15 items-center gap-y-2  w-full outline-1 py-2 sm:hidden bg-[#2A2B67] text-white navFont font-bold text-12 bg-conic-180 from-violet-600 via-[#2A2B67] to-violet-600 ">
+            <ul className="hidden flex-col absolute right-0 top-15 items-center gap-y-2  w-full outline-1 py-2 sm:hidden bg-[#2A2B67] text-white navFont font-bold text-12 bg-conic-180 from-violet-600 via-[#2A2B67] to-violet-600 ">
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
