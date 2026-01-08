@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from '../Components/Shared component/NavBar'
 import SectionOne from '../Components/SectionOne'
+import SectionTwo from '../Components/sectionTwo'
+import SectionThree from '../Components/SectionThree'
 
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
     <>
     <NavBar />
     <SectionOne />
+    <SectionTwo />
+    <SectionThree />
     </>
   )
 }
